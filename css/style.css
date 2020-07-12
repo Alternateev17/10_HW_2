@@ -5,21 +5,22 @@
 }
 
 .wrapper {
+  max-width: 100%;
   background-image: url(../img/Rectangle\ 3.png);
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.wrap {
-    padding-top: 82px;
-    padding-bottom: 81px;
+.cont-width {
+  max-width: 1380px;
 }
 
 .title {
-  font-family: Poppins;
+  padding-top: 56px;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 69px;
   line-height: 90px;
   color: #ffffff;
 }
@@ -33,7 +34,8 @@
 }
 
 .subtitle-1 {
-  font-family: Poppins;
+  padding: 46px 0px 50px;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -42,7 +44,8 @@
 }
 
 .par {
-  font-family: Poppins;
+  padding: 0px 25px 0px 0px;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -50,18 +53,26 @@
   color: #f8c654;
 }
 
+.video {
+  display: flex;
+  align-items: center;
+}
+
 .card {
+
+  max-width: 100%;
   background: #ffffff;
   border-radius: 10px;
-  max-width: 100%;
+  height: 497px;
+  margin: 82px 0px;
 }
 
 .subtitle {
   display: flex;
   justify-content: center;
-  padding-top: 82px;
-  padding-bottom: 30px;
-  font-family: Poppins;
+  padding-top: 44px;
+  padding-bottom: 34px;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -70,18 +81,19 @@
 }
 
 .inp-pos-1 {
-  padding: 0px 0px 0px 49px;
+  padding: 0px 0px 0px 44px;
 }
+
 .inp-pos-2 {
-  margin: 0px 30px 0px 0px;
+  margin: 0px 15px 0px 0px;
 }
 
 .m-width-1 {
-  width: 350px;
+  width: 330px;
 }
 
 .m-width-2 {
-  width: 150px;
+  width: 142px;
 }
 
 .position {
@@ -98,14 +110,14 @@
   border-top: none;
   border-left: none;
   border-right: none;
-  padding: 7px 0px;
+  padding: 8px 0px;
 }
 
 .far-p {
   position: relative;
   top: 0;
   left: -20px;
-  
+
 }
 
 .item-center {
@@ -113,7 +125,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 38px;
+  padding-top: 44px;
 }
 
 .btn {
@@ -121,7 +133,7 @@
   background: #f8c654;
   border-radius: 30px;
   border: none;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -132,7 +144,7 @@
 }
 
 .or {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: 400;
   font-weight: 600;
   font-size: 14px;
@@ -141,10 +153,11 @@
 }
 
 .phone-pos {
-  padding-top: 23px;
+  padding-top: 26px;
 }
+
 .phone-number {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -156,7 +169,7 @@
 }
 
 .color-text {
-  padding-top: 65px;
+  padding-top: 68px;
   padding-bottom: 36px;
   text-align: center;
 }
